@@ -1,24 +1,21 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ContactComponent } from './contact.component';
 
 const routes: Routes = [
   {
     path: '',
-    redirectTo: '',
-    pathMatch: 'full'
+    component: ContactComponent
   },
   {
     path: '**',
-    redirectTo: '',
+    redirectTo: 'home',
     pathMatch: 'full'
   }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, {
-    useHash: true,
-    scrollPositionRestoration: 'enabled'
-  })],
+  imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class ContactRoutingModule { }

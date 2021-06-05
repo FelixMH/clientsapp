@@ -1,27 +1,59 @@
 # Ideasbackv1
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.1.
+## changelog.
 
-## Development server
+- se retocó el header que ahora actúa de navbar.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- se añadió un footer.
 
-## Code scaffolding
+- se crearon componentes que actúan de vistas con sus módulos (como home, contact, clients).
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- se añadieron componentes que son reutilizables ( como el form, el header, el footer, etc ).
 
-## Build
+## What does we used in the project?.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Spring:
 
-## Running unit tests
+- JPA.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Hibernate.
 
-## Running end-to-end tests
+- DAO.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+- rest.
 
-## Further help
+- POO.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- MVC.
+
+Postgresql:
+
+- secuencias.
+
+- uso de tipo de datos SERIAL en id.
+
+- Restricciones de tipo UNIQUE para email.
+
+- Constraints.
+
+- uso de tablespaces.
+
+- backup de la bd.
+
+Angular:
+
+- Lazy Loading.
+
+- módulos.
+
+- componentes.
+
+- helpers.
+
+- servicios para conectar API.
+
+- Interfaces para tipado de datos.
+
+- typescript para tipado general del código.
+
+- decoradores.
